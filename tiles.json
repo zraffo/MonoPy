@@ -1,0 +1,422 @@
+{
+  "tiles": [
+    {
+      "events": [
+        {
+          "name": "Go",
+          "action": "go",
+          "position": 0
+        },
+        {
+          "name": "Community Chest",
+          "action": "comm_chest",
+          "position": 2
+        },
+        {
+          "name": "Income Tax",
+          "action": "inc_tax",
+          "position": 4
+        },
+        {
+          "name": "Chance",
+          "action": "chance",
+          "position": 7
+        },
+        {
+          "name": "Just Visiting",
+          "action": "none",
+          "position": 10
+        },
+        {
+          "name": "Community Chest",
+          "action": "comm_chest",
+          "position": 17
+        },
+        {
+          "name": "Free Parking",
+          "action": "none",
+          "position": 20
+        },
+        {
+          "name": "Chance",
+          "action": "chance",
+          "position": 22
+        },
+        {
+          "name": "Go to Jail",
+          "action": "to_jail",
+          "position": 30
+        },
+        {
+          "name": "Community Chest",
+          "action": "comm_chest",
+          "position": 33
+        },
+        {
+          "name": "Chance",
+          "action": "chance",
+          "position": 36
+        },
+        {
+          "name": "Luxury Tax",
+          "action": "lux_tax",
+          "position": 38
+        }
+      ]
+    },
+    {
+      "railroads": [
+        {
+          "name": "Reading Railroad",
+          "price": 200,
+          "rent": 25,
+          "rent2": 50,
+          "rent3": 100,
+          "rent4": 200,
+          "mortgage": 100,
+          "position": 5
+        },
+        {
+          "name": "Pennsylvania Railroad",
+          "price": 200,
+          "rent": 25,
+          "rent2": 50,
+          "rent3": 100,
+          "rent4": 200,
+          "mortgage": 100,
+          "position": 15
+        },
+        {
+          "name": "B&O Railroad",
+          "price": 200,
+          "rent": 25,
+          "rent2": 50,
+          "rent3": 100,
+          "rent4": 200,
+          "mortgage": 100,
+          "position": 25
+        },
+        {
+          "name": "Short Line Railroad",
+          "price": 200,
+          "rent": 25,
+          "rent2": 50,
+          "rent3": 100,
+          "rent4": 200,
+          "mortgage": 100,
+          "position": 35
+        }
+      ]
+    },
+    {
+      "utilities": [
+        {
+          "name": "Electric Company",
+          "price": 150,
+          "rent": 4,
+          "rent2": 10,
+          "mortgage" : 75,
+          "position": 12
+        },
+        {
+          "name": "Water Company",
+          "price": 150,
+          "rent": 4,
+          "rent2": 10,
+          "mortgage": 75,
+          "position": 28
+        }
+      ]
+    },
+    {
+      "properties": [
+        {
+          "name": "Mediterranean Avenue",
+          "price": 60,
+          "house": 50,
+          "rent0": 2,
+          "rent1": 10,
+          "rent2": 30,
+          "rent3": 90,
+          "rent4": 160,
+          "rentH": 250,
+          "mortgage": 30,
+          "position": 1
+        },
+        {
+          "name": "Baltic Avenue",
+          "price": 60,
+          "house": 50,
+          "rent0": 4,
+          "rent1": 20,
+          "rent2": 60,
+          "rent3": 180,
+          "rent4": 320,
+          "rentH": 450,
+          "mortgage": 30,
+          "position": 3
+        },
+        {
+          "name": "Oriental Avenue",
+          "price": 100,
+          "house": 50,
+          "rent0": 6,
+          "rent1": 30,
+          "rent2": 90,
+          "rent3": 270,
+          "rent4": 400,
+          "rentH": 550,
+          "mortgage": 50,
+          "position": 6
+        },
+        {
+          "name": "Vermont Avenue",
+          "price": 100,
+          "house": 50,
+          "rent0": 6,
+          "rent1": 30,
+          "rent2": 90,
+          "rent3": 270,
+          "rent4": 400,
+          "rentH": 550,
+          "mortgage": 50,
+          "position": 8
+        },
+        {
+          "name": "Connecticut Avenue",
+          "price": 120,
+          "house": 50,
+          "rent0": 8,
+          "rent1": 40,
+          "rent2": 100,
+          "rent3": 300,
+          "rent4": 450,
+          "rentH": 600,
+          "mortgage": 60,
+          "position": 9
+        },
+        {
+          "name": "St. Charles Place",
+          "price": 140,
+          "house": 100,
+          "rent0": 10,
+          "rent1": 50,
+          "rent2": 150,
+          "rent3": 450,
+          "rent4": 625,
+          "rentH": 750,
+          "mortgage": 70,
+          "position": 11
+        },
+        {
+          "name": "States Avenue",
+          "price": 140,
+          "house": 100,
+          "rent0": 10,
+          "rent1": 50,
+          "rent2": 150,
+          "rent3": 450,
+          "rent4": 625,
+          "rentH": 750,
+          "mortgage": 70,
+          "position": 13
+        },
+        {
+          "name": "Virginia Avenue",
+          "price": 160,
+          "house": 100,
+          "rent0": 12,
+          "rent1": 60,
+          "rent2": 180,
+          "rent3": 500,
+          "rent4": 700,
+          "rentH": 900,
+          "mortgage": 80,
+          "position": 14
+        },
+        {
+          "name": "St. James Place",
+          "price": 180,
+          "house": 100,
+          "rent0": 14,
+          "rent1": 70,
+          "rent2": 200,
+          "rent3": 550,
+          "rent4": 750,
+          "rentH": 950,
+          "mortgage": 90,
+          "position": 16
+        },
+        {
+          "name": "Tennessee Avenue",
+          "price": 180,
+          "house": 100,
+          "rent0": 14,
+          "rent1": 70,
+          "rent2": 200,
+          "rent3": 550,
+          "rent4": 750,
+          "rentH": 950,
+          "mortgage": 90,
+          "position": 18
+        },
+        {
+          "name": "New York Avenue",
+          "price": 200,
+          "house": 100,
+          "rent0": 16,
+          "rent1": 80,
+          "rent2": 220,
+          "rent3": 600,
+          "rent4": 800,
+          "rentH": 1000,
+          "mortgage": 100,
+          "position": 19
+        },
+        {
+          "name": "Kentucky Avenue",
+          "price": 220,
+          "house": 150,
+          "rent0": 18,
+          "rent1": 90,
+          "rent2": 250,
+          "rent3": 700,
+          "rent4": 875,
+          "rentH": 1050,
+          "mortgage": 110,
+          "position": 21
+        },
+        {
+          "name": "Indiana Avenue",
+          "price": 220,
+          "house": 150,
+          "rent0": 18,
+          "rent1": 90,
+          "rent2": 250,
+          "rent3": 700,
+          "rent4": 875,
+          "rentH": 1050,
+          "mortgage": 110,
+          "position": 23
+        },
+        {
+          "name": "Illinois Avenue",
+          "price": 240,
+          "house": 150,
+          "rent0": 20,
+          "rent1": 100,
+          "rent2": 300,
+          "rent3": 750,
+          "rent4": 925,
+          "rentH": 1100,
+          "mortgage": 120,
+          "position": 24
+        },
+        {
+          "name": "Atlantic Avenue",
+          "price": 260,
+          "house": 150,
+          "rent0": 22,
+          "rent1": 110,
+          "rent2": 330,
+          "rent3": 800,
+          "rent4": 975,
+          "rentH": 1150,
+          "mortgage": 130,
+          "position": 26
+        },
+        {
+          "name": "Ventnor Avenue",
+          "price": 260,
+          "house": 150,
+          "rent0": 22,
+          "rent1": 110,
+          "rent2": 330,
+          "rent3": 800,
+          "rent4": 975,
+          "rentH": 1150,
+          "mortgage": 130,
+          "position": 27
+        },
+        {
+          "name": "Marvin Gardens",
+          "price": 280,
+          "house": 150,
+          "rent0": 24,
+          "rent1": 120,
+          "rent2": 360,
+          "rent3": 850,
+          "rent4": 1025,
+          "rentH": 1200,
+          "mortgage": 140,
+          "position": 29
+        },
+        {
+          "name": "Pacific Avenue",
+          "price": 300,
+          "house": 200,
+          "rent0": 26,
+          "rent1": 130,
+          "rent2": 390,
+          "rent3": 900,
+          "rent4": 1100,
+          "rentH": 1275,
+          "mortgage": 150,
+          "position": 31
+        },
+        {
+          "name": "North Carolina Avenue",
+          "price": 300,
+          "house": 200,
+          "rent0": 26,
+          "rent1": 130,
+          "rent2": 390,
+          "rent3": 900,
+          "rent4": 1100,
+          "rentH": 1275,
+          "mortgage": 150,
+          "position": 32
+        },
+        {
+          "name": "Pennsylvania Avenue",
+          "price": 320,
+          "house": 200,
+          "rent0": 28,
+          "rent1": 150,
+          "rent2": 450,
+          "rent3": 1000,
+          "rent4": 1200,
+          "rentH": 1400,
+          "mortgage": 160,
+          "position": 34
+        },
+        {
+          "name": "Park Place",
+          "price": 350,
+          "house": 200,
+          "rent0": 35,
+          "rent1": 175,
+          "rent2": 500,
+          "rent3": 1100,
+          "rent4": 1300,
+          "rentH": 1500,
+          "mortgage": 175,
+          "position": 37
+        },
+        {
+          "name": "Boardwalk",
+          "price": 400,
+          "house": 200,
+          "rent0": 50,
+          "rent1": 200,
+          "rent2": 600,
+          "rent3": 1400,
+          "rent4": 1700,
+          "rentH": 2000,
+          "mortgage": 200,
+          "position": 39
+        }
+      ]
+    }
+  ]
+}

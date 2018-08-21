@@ -1,0 +1,6 @@
+{
+  "start_money": 1500,
+  "dice": 2,
+  "jail_turns": 3,
+  "turn_limit": -1
+}

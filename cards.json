@@ -1,0 +1,172 @@
+{
+  "cards": [
+    {
+      "community_chest": [
+        {
+          "text": "Advance to Go (Collect $200)",
+          "credit": 200,
+          "action": "to_go"
+        },
+        {
+          "text": "Bank error in your favor—Collect $200",
+          "credit": 200,
+          "action": "bank"
+        },
+        {
+          "text": "Doctor's fee—Pay $50",
+          "credit": -50,
+          "action": "bank"
+        },
+        {
+          "text": "From sale of stock you get $50",
+          "credit": 50,
+          "action": "bank"
+        },
+        {
+          "text": "Get Out of Jail Free",
+          "credit": 0,
+          "action": "get_out"
+        },
+        {
+          "text": "Go to Jail–Go directly to jail–Do not pass Go–Do not collect $200",
+          "credit": 0,
+          "action": "to_jail"
+        },
+        {
+          "text": "Grand Opera Night—Collect $50 from every player for opening night seats",
+          "credit": 50,
+          "action": "m_player"
+        },
+        {
+          "text": "Holiday Fund matures—Receive $100",
+          "credit": 100,
+          "action": "bank"
+        },
+        {
+          "text": "Income tax refund–Collect $20",
+          "credit": 20,
+          "action": "bank"
+        },
+        {
+          "text": "It is your birthday—Collect $10",
+          "credit": 10,
+          "action": "bank"
+        },
+        {
+          "text": "Life insurance matures–Collect $100",
+          "credit": 100,
+          "action": "bank"
+        },
+        {
+          "text": "Pay hospital fees of $100",
+          "credit": -100,
+          "action": "bank"
+        },
+        {
+          "text": "Pay school fees of $150",
+          "credit": -150,
+          "action": "bank"
+        },
+        {
+          "text": "You are assessed for street repairs–$40 per house–$115 per hotel",
+          "credit": [-40, -115],
+          "action": "repairs"
+        },
+        {
+          "text": "You have won second prize in a beauty contest–Collect $10",
+          "credit": 10,
+          "action": "bank"
+        },
+        {
+          "text": "You inherit $100",
+          "credit": 100,
+          "action": "bank"
+        }
+      ]
+    },
+    {
+      "chance": [
+        {
+          "text": "Advance to Go (Collect $200)",
+          "credit": "go",
+          "action": "to"
+        },
+        {
+          "text": "Advance to Illinois Ave—If you pass Go, collect $200",
+          "credit": "Illinois Ave",
+          "action": "to"
+        },
+        {
+          "text": "Advance to St. Charles Place – If you pass Go, collect $200",
+          "credit": "St. Charles Place",
+          "action": "to"
+        },
+        {
+          "text": "Advance token to nearest Utility. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total ten times the amount thrown.",
+          "credit": "utility",
+          "action": "to"
+        },
+        {
+          "text": "Advance token to the nearest Railroad and pay owner twice the rental to which he/she {he} is otherwise entitled. If Railroad is unowned, you may buy it from the Bank.",
+          "credit": "rr",
+          "action": "to"
+        },
+        {
+          "text": "Bank pays you dividend of $50",
+          "credit": 50,
+          "action": "bank"
+        },
+        {
+          "text": "Get Out of Jail Free",
+          "credit": 0,
+          "action": "get_out"
+        },
+        {
+          "text": "Go Back 3 Spaces",
+          "credit": 3,
+          "action": "move_back"
+        },
+        {
+          "text": "Go to Jail–Go directly to Jail–Do not pass Go, do not collect $200",
+          "credit": 0,
+          "action": "to_jail"
+        },
+        {
+          "text": "Make general repairs on all your property–For each house pay $25–For each hotel $100",
+          "credit": [-25, -100],
+          "action": "repairs"
+        },
+        {
+          "text": "Pay poor tax of $15",
+          "credit": -15,
+          "action": "bank"
+        },
+        {
+          "text": "Take a trip to Reading Railroad–If you pass Go, collect $200",
+          "credit": "Reading Railroad",
+          "action": "to"
+        },
+        {
+          "text": "Take a walk on the Boardwalk–Advance token to Boardwalk",
+          "credit": "Boardwalk",
+          "action": "to"
+        },
+        {
+          "text": "You have been elected Chairman of the Board–Pay each player $50",
+          "credit": -50,
+          "action": "pay_others"
+        },
+        {
+          "text": "Your building and loan matures—Collect $150",
+          "credit": 150,
+          "action": "bank"
+        },
+        {
+          "text": "You have won a crossword competition—Collect $100",
+          "credit": 100,
+          "action": "bank"
+        }
+      ]
+    }
+  ]
+}
